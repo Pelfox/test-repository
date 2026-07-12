@@ -1,5 +1,7 @@
 FROM nginx:alpine
 
+RUN echo "Building the custom Nginx image..."
+
 RUN printf '%s\n' \
     '<!doctype html>' \
     '<html>' \
